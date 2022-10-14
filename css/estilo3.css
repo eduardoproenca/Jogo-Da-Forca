@@ -1,0 +1,59 @@
+@font-face {
+    font-family: Permanent;
+    src: url(../fonts/PermanentMarker-Regular.ttf);
+}
+
+
+body {
+    margin: 0%;
+    padding: 0%;
+    background-color: rgb(148, 3, 124);
+}
+
+.Menu {
+    position: relative;
+    background-color: rgb(5, 24, 194);
+    border: 1px solid black;
+    margin: 1%;
+    height: 600px;
+}
+
+.gif1 {
+    position: absolute;
+    width: 30%;
+    margin-top: -50px;
+    margin-left: 180px;
+}
+
+.boneco {
+    border: 2px solid black;
+    border-radius: 20%;
+    background-color: darkcyan;
+    position: absolute;
+    width: 250px;
+    margin-left: 250px;
+    margin-top: 250px;
+    cursor: pointer;
+}
+
+.boneco:hover {
+    background-color: rgb(236, 8, 8);
+}
+
+.btn {
+    position: absolute;
+    border: 1px solid black;
+    color: rgb(158, 156, 36);
+    background-color: rgb(0, 0, 0);
+    border-radius: 10%;
+    font-family: Permanent;
+    font-size: 70px;
+    margin-top: 350px;
+    margin-left: 850px;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover {
+    color: gold;
+}

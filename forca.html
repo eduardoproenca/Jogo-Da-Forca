@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="Author" content="Eduardo Carvalho" />
+        <meta name="Keywoards" content="Tecnologia, HTML, CSS, JavaScript" />
+        <meta name="viewport" content="width=device-width, initial=scale-1.0" />
+        <link rel="stylesheet" type="text/css" href="css/estilo.css" />
+        <link rel="stylesheet" type="text/css" href="css/estilo2.css" />
+        <script src="js/script.js"></script>
+        <title>Jogo da Forca</title>
+    </head>
+    <body onload='inicio();'>
+        <img src="/imagens/Background-Universe.jpg" class="bgUniverse">
+        <section class="section1">
+            
+        <a href="index.html" class="menu">MENU</a>
+
+        <div class="voltar"></div>
+            
+        <h1 class="tit1">Jogo da Forca</h1>
+            <div class='container'>
+            <label class='lb1'>Digite a Letra</label>
+            <input type='text' size='1' maxlength='1' id='letraDigitada' autofocus required onkeyup="maiuscula(this);">
+            <div id='dv1'></div>
+            <button class='btn1' onclick='conferir();'>Conferir</button>
+            <button class='btn2' onclick='reiniciar();'>Reiniciar</button>
+            <label class='lblErro'>Letras Erradas</label>
+            <label id='LetrasErro'></label>
+            <img src='imagens/forca.png' id='forca'>
+                
+                </div>
+            <div class="autor">
+            <p>BY:</p>
+            <h1 class="tit2">Eduardo Carvalho</h1>
+                </div>
+        </section>
+    </body>
+</html>
