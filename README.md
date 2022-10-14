@@ -1,5 +1,6 @@
-
+<div align="center">
 <h1>Jogo da Forca</h1>
+</div>
 <br>
  <h2>Jogo da Forca com HTML | CSS | JavaScript<h2><br>
 
