@@ -1,5 +1,5 @@
 var palavras = ['BIBLIOTECA', 'AMAZONENCE', 'PARAIBANO', 'BRASILIENSE', 'INJUSTIÇADO', 'TESOURO', 'ELEFANTE', 'SANTUARIO'];
-var imagens = ['cabeca.png', 'UM_BRACO.png', 'BRACOS.png', 'corpo_parte.png', 'UMA_PERNA.png', 'TUDO.png'];
+var imagens = ['cabeca.png', 'UM_BRACO.png', 'BRACOS.png', 'UMA_PERNA.png', 'corpo_parte.png', 'TUDO.png'];
 var qtdePalavras = palavras.length; // qtde de palavras
 var palavra, numLetras, letra, nomeID, letrasErradas = " ", tentativas = 0;
 var qtdeImagens = imagens.length; // qtde de imagens
